@@ -201,7 +201,7 @@ export const TableContainer = () => {
           {firstTableRows}
         </tbody>
       </table>
-      <table className="sm:hidden xl:table w-1/2 text-center">
+      <table className="sm:hidden lg:hidden md:hidden max-[640px]:hidden xl:table w-1/2 text-center">
         <thead className="gray-color border-b divide-slate-700">
           <tr>
             <th></th>
