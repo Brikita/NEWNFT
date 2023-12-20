@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="top flex flex-col flex-nowrap items-center  p-5 md:flex-row">
           <div className=" flex flex-row flex-nowrap gap-1 items-center text-left mr-20  ">
 
-            <div className="flex flex-row flex-nowrap gap-2 items-center whitespace-nowrap text-2xl mr-auto w-full justify-self-start text-left ">Top collections
+            <div className="flex flex-row flex-nowrap gap-2 items-center justify-self-start whitespace-nowrap text-2xl mr-auto w-full  text-left ">Top collections
               <div className="flex flex-row flex-nowrap gap-1">
                 <span className="text-[#76a9fa] text-2xl font-bold flex flex-row flex-nowrap items-center">Generative</span>
               

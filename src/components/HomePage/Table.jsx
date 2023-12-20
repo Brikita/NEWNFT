@@ -30,7 +30,7 @@ export const TableContainer = () => {
             </div>
             <div>
               <div className="">{nft.Collections}</div>
-              <div className=" md:hidden lg:hidden xl:hidden sm:hidden 2xl:hidden flex flex-row flex-nowrap gray-color">
+              <div className="sm:hidden flex flex-row flex-nowrap gray-color">
                 FLOOR: <div className="ml-2 font-bold ">{nft.Floors[0]}</div>
                 <div className="text-[#31c48d] flex flex-row flex-nowrap justify-self-center items-center ">
                   <Icon
@@ -115,7 +115,7 @@ export const TableContainer = () => {
             </div>
             <div>
               <div className=" ">{nft.Collections}</div>
-              <div className=" md:hidden lg:hidden xl:hidden sm:hidden 2xl:hidden flex flex-row flex-nowrap gray-color">
+              <div className="sm:hidden flex flex-row flex-nowrap gray-color">
                 FLOOR: <div className="ml-2 font-bold ">{nft.Floors[0]}</div>
                 <div className="text-[#31c48d] flex flex-row flex-nowrap justify-self-center items-center ">
                   <Icon
@@ -201,7 +201,7 @@ export const TableContainer = () => {
           {firstTableRows}
         </tbody>
       </table>
-      <table className="sm:hidden lg:hidden md:hidden max-[640px]:hidden xl:table w-1/2 text-center">
+      <table className="sm:hidden xl:table w-1/2 text-center">
         <thead className="gray-color border-b divide-slate-700">
           <tr>
             <th></th>
